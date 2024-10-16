@@ -32,5 +32,5 @@ MOUSEKEY_ENABLE = no
 SPLIT_KEYBOARD = yes        # Use shared split_common code
 
 LAYOUTS = split_3x5_3       # Community layout support
-
+-e CONVERT_TO=rp2040_ce
 include keyboards/fingerpunch/src/rules.mk
